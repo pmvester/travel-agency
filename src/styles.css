@@ -1,0 +1,172 @@
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Arial";
+  color: #333;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f98424;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.trip-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.trip-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trip-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.trip-preview a {
+  text-decoration: none;
+}
+
+/* trip details page */
+.trip-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.trip-details div {
+  margin: 20px 0;
+}
+
+.trips-list a {
+  text-decoration: none;
+}
+
+.trip-card img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.trip-card {
+  position: relative;
+}
+
+.trip-card h2 {
+  background-color: #f98424;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.trip-card h3 {
+  background-color: #f98424;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.trip-card span {
+  font-size: 0.8em;
+}
+
+.leftTop {
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+}
+
+.rightBottom {
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+  bottom: 4px;
+  right: 0;
+}
+
+.rightTop {
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+  top: 0;
+  right: 0;
+}
+
+.leftBottom {
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+  bottom: 4px;
+  left: 0;
+}
+
+.trip-card:hover {
+  border: 4px;
+  border-style: solid;
+  border-color: #f98424;
+  border-radius: 10px;
+}
+
+.trip-details img {
+  height: auto;
+  max-width: 100%;
+}
+
+#motorcycle {
+  height: auto;
+  width: 40px;
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+  top: 0;
+  right: 0;
+  background-color: #f98424;
+  border-radius: 10px;
+}
+
+#hiking {
+  height: auto;
+  width: 40px;
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+  top: 0;
+  right: 0;
+  background-color: #f98424;
+  border-radius: 10px;
+}

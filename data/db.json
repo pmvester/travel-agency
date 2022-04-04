@@ -1,0 +1,76 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "name": "Val di Sole",
+      "area": "Terzolas",
+      "type": "mc",
+      "startDate": "2022-06-03",
+      "endDate": "2022-06-12",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, est modi. Velit, laudantium cupiditate dolorem incidunt enim vel et doloremque ipsum. Voluptate alias illo laborum deleniti. Delectus enim possimus, veritatis sequi eaque laudantium eligendi accusamus voluptatibus facilis libero sunt unde perspiciatis quo ea dicta dignissimos autem, molestiae voluptatem expedita temporibus totam corporis harum. Eos molestias asperiores, dolorem ullam inventore corporis quod dolore id adipisci provident vero, totam, eveniet sapiente reprehenderit! Mollitia cupiditate, sapiente eveniet expedita doloremque quam maxime dignissimos iusto unde provident numquam accusantium, atque rem exercitationem sint odio vero, quasi tempora cumque? Nostrum debitis fugiat modi distinctio cum doloribus.",
+      "hotel": "Pippo",
+      "price": 16995,
+      "currency": "SEK",
+      "singleRoom": 1500,
+      "doubleCabinOneWay": 1000,
+      "smcReduction": -500,
+      "photo": "val-di-sole.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Val di Fassa",
+      "area": "Canazei",
+      "type": "mc",
+      "startDate": "2022-07-22",
+      "endDate": "2022-07-31",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, est modi. Velit, laudantium cupiditate dolorem incidunt enim vel et doloremque ipsum. Voluptate alias illo laborum deleniti. Delectus enim possimus, veritatis sequi eaque laudantium eligendi accusamus voluptatibus facilis libero sunt unde perspiciatis quo ea dicta dignissimos autem, molestiae voluptatem expedita temporibus totam corporis harum. Eos molestias asperiores, dolorem ullam inventore corporis quod dolore id adipisci provident vero, totam, eveniet sapiente reprehenderit! Mollitia cupiditate, sapiente eveniet expedita doloremque quam maxime dignissimos iusto unde provident numquam accusantium, atque rem exercitationem sint odio vero, quasi tempora cumque? Nostrum debitis fugiat modi distinctio cum doloribus.",
+      "price": 16995,
+      "currency": "SEK",
+      "singleRoom": 1500,
+      "doubleCabinOneWay": 1000,
+      "smcReduction": -500,
+      "photo": "val-di-fassa.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Dolomiterna",
+      "area": "Klausen",
+      "type": "mc",
+      "startDate": "2022-09-09",
+      "endDate": "2022-09-18",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, est modi. Velit, laudantium cupiditate dolorem incidunt enim vel et doloremque ipsum. Voluptate alias illo laborum deleniti. Delectus enim possimus, veritatis sequi eaque laudantium eligendi accusamus voluptatibus facilis libero sunt unde perspiciatis quo ea dicta dignissimos autem, molestiae voluptatem expedita temporibus totam corporis harum. Eos molestias asperiores, dolorem ullam inventore corporis quod dolore id adipisci provident vero, totam, eveniet sapiente reprehenderit! Mollitia cupiditate, sapiente eveniet expedita doloremque quam maxime dignissimos iusto unde provident numquam accusantium, atque rem exercitationem sint odio vero, quasi tempora cumque? Nostrum debitis fugiat modi distinctio cum doloribus.",
+      "price": 16995,
+      "currency": "SEK",
+      "singleRoom": 1500,
+      "doubleCabinOneWay": 1000,
+      "smcReduction": -500,
+      "photo": "dolomiterna.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Dolomiterna",
+      "area": "Corvara",
+      "type": "vandring",
+      "startDate": "2022-08-27",
+      "endDate": "2022-09-05",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, est modi. Velit, laudantium cupiditate dolorem incidunt enim vel et doloremque ipsum. Voluptate alias illo laborum deleniti. Delectus enim possimus, veritatis sequi eaque laudantium eligendi accusamus voluptatibus facilis libero sunt unde perspiciatis quo ea dicta dignissimos autem, molestiae voluptatem expedita temporibus totam corporis harum. Eos molestias asperiores, dolorem ullam inventore corporis quod dolore id adipisci provident vero, totam, eveniet sapiente reprehenderit! Mollitia cupiditate, sapiente eveniet expedita doloremque quam maxime dignissimos iusto unde provident numquam accusantium, atque rem exercitationem sint odio vero, quasi tempora cumque? Nostrum debitis fugiat modi distinctio cum doloribus.",
+      "price": 12995,
+      "currency": "SEK",
+      "singleRoom": 2000,
+      "doubleCabinOneWay": 1000,
+      "photo": "dolomites-hiking.jpeg"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Pippo",
+      "fullName": "Pippo Hotel",
+      "adress": "Via Don Pietro Silvestri, 32",
+      "zip": "38027",
+      "area": "Terzolas",
+      "url": "https://pippohotel.it/en",
+      "photo": "pippo-hotel.jpeg"
+    }
+  ]
+}
