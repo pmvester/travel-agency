@@ -2,28 +2,51 @@
 * {
   margin: 0;
   font-family: "Arial";
-  color: #333;
+  color: black;
+}
+
+:root {
+  --main-bg-color: #f98424;
+  --main-font-color: white;
 }
 
 .navbar {
-  padding: 20px;
-  display: flex;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
+  background-color: var(--main-bg-color);
   border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: #f98424;
+}
+
+.navbar img {
+  background-color: lightgray;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 3px darkslategray;
+  height: auto;
+  padding: 5px;
+  width: 150px;
+}
+
+.navbar img:hover {
+  cursor: pointer;
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: var(--main-font-color);
 }
 
 .navbar .links {
   margin-left: auto;
+  font-size: 25px;
 }
 
 .navbar a {
@@ -33,7 +56,7 @@
 }
 
 .navbar a:hover {
-  color: white;
+  color: var(--main-font-color);
   text-decoration: underline;
 }
 
@@ -43,30 +66,9 @@
   padding: 20px;
 }
 
-.trip-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
-}
-
-.trip-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-.trip-preview h2 {
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
-}
-
-.trip-preview a {
-  text-decoration: none;
-}
-
 /* trip details page */
 .trip-details h2 {
   font-size: 20px;
-  color: #f1356d;
   margin-bottom: 10px;
 }
 
@@ -89,14 +91,14 @@
 }
 
 .trip-card h2 {
-  background-color: #f98424;
-  color: white;
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
   text-align: center;
   border-radius: 5px;
 }
 
 .trip-card h3 {
-  background-color: #f98424;
+  background-color: var(--main-bg-color);
   text-align: center;
   border-radius: 5px;
 }
@@ -138,7 +140,7 @@
 .trip-card:hover {
   border: 4px;
   border-style: solid;
-  border-color: #f98424;
+  border-color: var(--main-bg-color);
   border-radius: 10px;
 }
 
@@ -155,7 +157,7 @@
   padding: 4px;
   top: 0;
   right: 0;
-  background-color: #f98424;
+  background-color: var(--main-bg-color);
   border-radius: 10px;
 }
 
@@ -167,6 +169,50 @@
   padding: 4px;
   top: 0;
   right: 0;
-  background-color: #f98424;
+  background-color: var(--main-bg-color);
   border-radius: 10px;
+}
+
+.image-float {
+  float: left;
+  height: auto;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button:hover {
+  color: white;
+  background-color: #d1660e;
+}
+
+button {
+  background-color: var(--main-bg-color);
+  border: none;
+  padding: 10px 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.signup-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.signup-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(10px, auto);
+}
+
+.signup-filler {
+  background-color: var(--main-bg-color);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 30px;
+  width: auto;
 }

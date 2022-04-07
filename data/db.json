@@ -71,6 +71,16 @@
       "area": "Terzolas",
       "url": "https://pippohotel.it/en",
       "photo": "pippo-hotel.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Laurin",
+      "fullName": "Hotel Laurin",
+      "adress": "Streda Dolomites, 97",
+      "zip": "38032",
+      "area": "Canazei",
+      "url": "https://www.laurinhotel.net",
+      "photo": "hotel-laurin.jpeg"
     }
   ]
 }
