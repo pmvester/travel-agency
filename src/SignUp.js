@@ -50,7 +50,7 @@ const SignUp = () => {
           }
           </p>
           <p><b>Avresa</b>: { trip.startDate }</p>
-          <p><b>Hemkomst</b>: { trip.endDate }</p>
+          <p><b>Hemma igen</b>: { trip.endDate }</p>
           <p><b>Antal dagar</b>: { durationDays(trip.startDate, trip.endDate) }</p>
           <h2>Pris: { formatCurrency.format(totalPrice) }</h2><br />
         </div>
